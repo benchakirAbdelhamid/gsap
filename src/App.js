@@ -31,13 +31,13 @@ function App() {
         toggleActions: "play none none reverse",
       },
     });
-    gsap.to(bgImg.current, { scrollTrigger: { scrub: 1 }, scale: 1.5, duration: 2 });
-    gsap.to(manImg.current, { scrollTrigger: { scrub: 1 }, scale: 0.5, duration: 2 });
-    gsap.to(mountain_leftGsap.current, { scrollTrigger: { scrub: 1 }, x: -500, duration: 3 });
-    gsap.to(mountain_rightGsap.current, { scrollTrigger: { scrub: 1 }, x: 500, duration: 3 });
-    gsap.to(cloud1Gsap.current, { scrollTrigger: { scrub: 1 }, x: 200, duration: 3 });
-    gsap.to(cloud2Gsap.current, { scrollTrigger: { scrub: 1 }, x: -200, duration: 3 });
-    gsap.to(textGsap.current, { scrollTrigger: { scrub: 1 }, y: 500, duration: 3 });
+    gsap.to(bgImg.current, { scrollTrigger: { scrub: 1 }, scale: 1.5});
+    gsap.to(manImg.current, { scrollTrigger: { scrub: 1 }, scale: 0.5 });
+    gsap.to(mountain_leftGsap.current, { scrollTrigger: { scrub: 1 }, x: -500 });
+    gsap.to(mountain_rightGsap.current, { scrollTrigger: { scrub: 1 }, x: 500});
+    gsap.to(cloud1Gsap.current, { scrollTrigger: { scrub: 1 }, x: 200 });
+    gsap.to(cloud2Gsap.current, { scrollTrigger: { scrub: 1 }, x: -200 });
+    gsap.to(textGsap.current, { scrollTrigger: { scrub: 1 }, y: 500 });
   }, []);
 
   return (
